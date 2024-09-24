@@ -3,8 +3,16 @@ import HomePage from '../pages/HomePage.vue';
 import TodoPage from '../pages/TodoPage.vue';
 
 const routes = [
-    { path: '/', component: HomePage },
-      { path: '/add-todo', component: TodoPage },
+    {
+        path: '/', component: HomePage, meta: {
+            title: 'Home',
+        },
+    },
+    {
+        path: '/todo', component: TodoPage, meta: {
+            title: 'ToDo',
+        },
+    },
 ];
 
 const router = createRouter({
