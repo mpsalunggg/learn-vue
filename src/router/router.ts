@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomePage from '../pages/HomePage.vue';
-import TodoPage from '../pages/TodoPage.vue';
+import TodoPage from '../pages/Todo/TodoPage.vue';
 import UserPage from '../pages/UserPage.vue';
 
 const routes = [
