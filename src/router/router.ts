@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomePage from '../pages/HomePage.vue';
 import TodoPage from '../pages/TodoPage.vue';
+import UserPage from '../pages/UserPage.vue';
 
 const routes = [
     {
@@ -11,6 +12,11 @@ const routes = [
     {
         path: '/todo', component: TodoPage, meta: {
             title: 'ToDo',
+        },
+    },
+    {
+        path: '/user', component: UserPage, meta: {
+            title: 'User',
         },
     },
 ];
